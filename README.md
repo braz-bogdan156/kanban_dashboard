@@ -80,6 +80,7 @@ Clone the repository:
 
 git clone 
 https://github.com/braz-bogdan156/kanban_dashboard
+
 cd task-manager
 
 Install dependencies:
