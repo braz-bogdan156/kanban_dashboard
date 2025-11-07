@@ -24,7 +24,7 @@ export function KanbanTaskCard({ task }: { task: Task }) {
             <img src={task.attachment} alt="att" className="max-h-24 rounded" />
           ) : (
             <a href={task.attachment} target="_blank" rel="noreferrer" className="text-xs text-blue-600 underline">
-              Переглянути файл
+              Review Attachment
             </a>
           )}
         </div>
