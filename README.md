@@ -44,8 +44,7 @@ When selecting **Assignee**, we open a **new modal on top of the existing modal*
 
 This is implemented using a **Modal Context**:
 
-```tsx
-openModal(<SelectAssigneeModal onSelect={(user) => {...}} />);
+
 This approach:
 
 Avoids prop drilling
@@ -63,8 +62,7 @@ Uploaded files are converted to Base64 and previewed directly.
 All tasks are stored in localStorage, so state remains after refreshing.
 
 📁 Project Structure
-bash
-Копировать код
+
 src/
  ├ components/        # UI elements (Button, Input, Modal...)
  ├ modules/
@@ -72,8 +70,10 @@ src/
  │   └ task/          # Task form, fields, nested modal
  ├ hooks/             # useTasks, useModal
  ├ types/             # Task types
+ ├ services/          # Services
+ ├ providers/         # Providers
  ├ utils/             # fileToBase64 helper
- └ store/ (optional)
+ └ store/             # taskReducer store
 ⚙️ Setup & Run
 Clone the repository:
 
