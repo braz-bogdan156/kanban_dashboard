@@ -67,7 +67,9 @@ src/
 ├─ components/ # Reusable UI elements
 
 ├─ modules/
+
 │ ├─ kanban/ # Kanban board UI 
+
 │ └─ task/ # Task form modal, nested modals, task-related views
 
 ├─ hooks/ # Custom hooks 
