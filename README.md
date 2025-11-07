@@ -104,6 +104,9 @@ Forms are fully controlled via Formik, ensuring validation consistency.
 
 
 ✅ Status
+
 ✔️ Required functionality completed
+
 ✔️ Nested modal implemented & documented
+
 ✔️ Code structured & linted
