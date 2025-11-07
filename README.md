@@ -64,16 +64,16 @@ All tasks are stored in localStorage, so state remains after refreshing.
 📁 Project Structure
 
 src/
- ├ components/        # UI elements (Button, Input, Modal...)
- ├ modules/
- │   ├ kanban/        # Board and task card views
- │   └ task/          # Task form, fields, nested modal
- ├ hooks/             # useTasks, useModal
- ├ types/             # Task types
- ├ services/          # Services
- ├ providers/         # Providers
- ├ utils/             # fileToBase64 helper
- └ store/             # taskReducer store
+├─ components/ # Reusable UI elements (Button, Input, Modal, Card...)
+├─ modules/
+│ ├─ kanban/ # Kanban board UI + Column + TaskCard components
+│ └─ task/ # Task modal forms, nested modals, task-related views
+├─ hooks/ # Custom hooks (useTasks, useModal, useLocalStorage...)
+├─ types/ # Global TypeScript types (Task, Column, User...)
+├─ services/ # Business logic services (e.g., taskService)
+├─ providers/ # Context providers (ModalProvider, TasksProvider)
+├─ utils/ # Helpers (fileToBase64, uuid, etc.)
+└─ store/ # Reducers, actions, selectors (taskReducer, index.ts)
 ⚙️ Setup & Run
 Clone the repository:
 
