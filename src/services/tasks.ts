@@ -1,6 +1,6 @@
 import type { Task } from '../types/task';
 
-const STORAGE_KEY = 'tasks';
+const STORAGE_KEY = import.meta.env.VITE_STORAGE_KEY;
 
 export const getTasks = (): Task[] => {
     const tasksJson = localStorage.getItem(STORAGE_KEY);
