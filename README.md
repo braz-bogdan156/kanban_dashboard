@@ -74,28 +74,23 @@ src/
 ├─ providers/ # Context providers (ModalProvider, TasksProvider)
 ├─ utils/ # Helpers (fileToBase64, uuid, etc.)
 └─ store/ # Reducers, actions, selectors (taskReducer, index.ts)
+
 ⚙️ Setup & Run
 Clone the repository:
 
-bash
-Копировать код
-git clone https://github.com/<your-username>/task-manager.git
+git clone 
+https://github.com/braz-bogdan156/kanban_dashboard
 cd task-manager
+
 Install dependencies:
-
-bash
-Копировать код
 npm install
+
 Start the development server:
-
-bash
-Копировать код
 npm run dev
-Open in browser:
 
-arduino
-Копировать код
+Open in browser:
 http://localhost:5173
+
 💡 Notes on Architecture
 The Modal Provider manages global modal state, enabling nested modals.
 
@@ -103,12 +98,10 @@ The Kanban board avoids unnecessary re-renders using stable IDs and minimal stat
 
 Forms are fully controlled via Formik, ensuring validation consistency.
 
-🎥 (Optional) Demo
-Add a link to deployed version or short video:
+🎥  Demo:
 
-arduino
-Копировать код
-https://...
+
+
 ✅ Status
 ✔️ Required functionality completed
 ✔️ Nested modal implemented & documented
