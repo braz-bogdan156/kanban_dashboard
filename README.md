@@ -64,15 +64,22 @@ All tasks are stored in localStorage, so state remains after refreshing.
 📁 Project Structure
 
 src/
-├─ components/ # Reusable UI elements 
+├─ components/ # Reusable UI elements
+
 ├─ modules/
 │ ├─ kanban/ # Kanban board UI 
 │ └─ task/ # Task form modal, nested modals, task-related views
+
 ├─ hooks/ # Custom hooks 
+
 ├─ types/ # Global TypeScript types 
+
 ├─ services/ # Business logic services 
+
 ├─ providers/ # Context providers
+
 ├─ utils/ # Helpers 
+
 ├─ store/ # Reducers and state logic 
 
 ⚙️ Setup & Run
